@@ -1,0 +1,30 @@
+.hello{
+    background-color: rgb(152, 152, 187);
+}
+.detail-pic img{
+    width: 100%;
+    height: 70%;
+}
+.detail-poster img{
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    border: 5px solid black;
+    top: 80px;
+    left:0px
+}
+.detail-description{
+    width: 30rem;
+    
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: rgb(124, 104, 104);
+
+}
+.rating{
+    position: absolute;
+    top: 45rem;
+    left: 5rem;
+    color: white;
+}

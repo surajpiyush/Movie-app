@@ -1,0 +1,31 @@
+.App{
+    background-color: black;
+}
+.item img{
+    width: 20rem;
+    height: 25rem;
+    border: 2px solid rgb(46, 39, 39);
+    border-radius: 10px;
+}
+
+.item:hover{
+    transform: scale(1.1);
+    z-index: 100;
+    box-shadow:  rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; ;
+}
+
+a:hover{
+    color: red;
+}
+.pop{
+    color: red;
+    font-size: 2rem;
+}
+.rate{
+    color: rgb(35, 214, 11);
+    font-size: 2rem;
+}
+.up{
+    color: rgb(36, 10, 182);
+    font-size: 2rem;
+}

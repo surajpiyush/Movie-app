@@ -1,0 +1,41 @@
+.posterImage {
+  height: 600px;
+}
+
+.posterImage > img {
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+
+.posterImage__overlay {
+  position: absolute;
+  padding: 3rem;
+  bottom: 0px;
+  height: 0%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: flex-start;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.posterImage__overlay:hover {
+  opacity: 1;
+  display: flex;
+  flex-direction: row;
+}
+
+.posterImage__title {
+  font-weight: 500;
+  font-size: 2rem;
+
+  background: none;
+}
+
+
+
+
+
